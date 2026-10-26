@@ -1,0 +1,31 @@
+{
+  "model": "XGBClassifier",
+  "trained_at_utc": "2026-10-26 16:18 UTC",
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.1,
+    "max_depth": 7,
+    "n_estimators": 200,
+    "subsample": 1.0
+  },
+  "best_cv_f1": 0.7791,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "test_metrics": {
+    "accuracy": 0.9328,
+    "precision": 0.8531,
+    "recall": 0.7871,
+    "f1": 0.8188,
+    "roc_auc": 0.96
+  },
+  "library_versions": {
+    "scikit-learn": "1.6.1",
+    "xgboost": "2.1.4"
+  },
+  "mlflow_run_id": "0e4f79f0484547c7a3626e188e7e7653"
+}
